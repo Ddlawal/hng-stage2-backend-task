@@ -22,6 +22,9 @@
     "url": "https://github.com/Ddlawal/hng-stage2-backend-task/issues"
   },
   "homepage": "https://github.com/Ddlawal/hng-stage2-backend-task#readme",
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.4",
