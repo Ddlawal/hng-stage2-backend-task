@@ -26,6 +26,6 @@
     ]
   },
   "include": [
-    "src/**/*"
+    "./**/*"
 , "middleware", "index.ts", "helper.ts"  ]
 }
