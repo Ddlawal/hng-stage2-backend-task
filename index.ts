@@ -1,10 +1,10 @@
 import path from 'path'
 import express, { urlencoded } from 'express'
 import cors from 'cors'
-import { errorMiddleware } from './middleware/errorHandler'
+import { errorMiddleware } from './src/middleware/errorHandler'
 import { config } from 'dotenv'
 import exphbs from 'express-handlebars'
-import { sendEmail } from './helper'
+import { sendEmail } from './src/helper'
 
 config({ path: path.join(__dirname, '../.env') })
 
