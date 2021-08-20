@@ -4,7 +4,7 @@
   "description": "A single web page of an interactive resume with form",
   "main": "src/index.ts",
   "scripts": {
-    "start": "nodemon src/index"
+    "start": "node src/index"
   },
   "repository": {
     "type": "git",
