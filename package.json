@@ -1,0 +1,52 @@
+{
+  "name": "hng-stage2-backend-task",
+  "version": "1.0.0",
+  "description": "A single web page of an interactive resume with form",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ddlawal/hng-stage2-backend-task.git"
+  },
+  "keywords": [
+    "HNG",
+    "ZURI",
+    "Node",
+    "Typescript"
+  ],
+  "author": "Muhammad Lawal Adamu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ddlawal/hng-stage2-backend-task/issues"
+  },
+  "homepage": "https://github.com/Ddlawal/hng-stage2-backend-task#readme",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@types/cors": "^2.8.7",
+    "@types/express-handlebars": "^5.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "nodemailer": "^6.6.3"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.8",
+    "@types/node": "^11.15.32",
+    "@types/nodemailer": "^6.4.4",
+    "@typescript-eslint/eslint-plugin": "^1.4.2",
+    "@typescript-eslint/parser": "^1.4.2",
+    "eslint": "^5.15.1",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "nodemon": "^2.0.12",
+    "prettier": "^1.16.4",
+    "ts-node": "^10.2.1",
+    "typescript": "^3.9.7"
+  }
+}
